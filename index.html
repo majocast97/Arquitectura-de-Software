@@ -1,127 +1,56 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Planetas</title>
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
-    <!-- CSS -->
-    <link href="style.css" rel="stylesheet">
-    <meta name="robots" content="noindex,follow" />
+<html lang="en" >
 
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <title> Tienda Race for The Galaxy </title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 
-  <body>
+  
+      <link rel="stylesheet" href="css/style.css">
 
-      <nav>
-          <ul class="ula">
-              <li><a href="#">Perfil</a></li>
-              <li><a href="#">Juegos</a></li>
-              <li><a href="#">Tienda</a></li>
-              <li><a href="#">Salir</a></li>
-              <img class="imga" src="images\logo.png" />
-          </ul>
-      </nav>
+  
+</head>
 
-    <main class="container">
+<body>
+	<nav>
+		<ul class="ula">
+				<li><a href="#">Perfil</a></li>
+				<li><a href="#">Juegos</a></li>
+				<li><a href="#">Tienda</a></li>
+				<li><a href="#">Salir</a></li>
+				<img class="imga" src="logo.png" />
+		</ul>
 
-      <!-- Left Column / Headphones Image -->
-      <div class="left-column">
-        <img data-image="arcoiris" src="images/arcoiris.png" alt=""></img>
-        <img data-image="tatooine" src="images/tatooine.png" alt=""></img>
-        <img data-image="sun" class="active" src="images/sun.png" alt=""></img>
-        <img data-image="ahch-to" src="images/ahch-to.png" alt=""></img>
-        <img data-image="ex1" src="images/ex1.jpg" alt=""></img>
-        <img data-image="jupiter" src="images/jupiter.png" alt=""></img>
-        <img data-image="mazo" src="images/MAZO.png" alt=""></img>
-        <img data-image="mercurio" src="images/mercurio.png" alt=""></img>
-        <img data-image="planet" src="images/planet.png" alt=""></img>
-        <img data-image="pluto" src="images/pluto.png" alt=""></img>
-        <img data-image="saturno" src="images/saturno.png" alt=""></img>
-        <img data-image="Teth" src="images/Teth.png" alt=""></img>
-      </div>
+</nav>
+  <ul id="c"> 
+		
+		<li class="lip"><a href="#"><img src="arcoiris.png" style="max-width: 500px;"></img><strong>Hutta</strong></a></li>
+		<li class="lip"><a href="#"><img src="jupiter.png" style="max-width: 730px;"></img><strong style="margin-left:270px;">Jupiter</strong></a></li>
+		<li class="lip"><a href="#"><img src="pluto.png" style="max-width: 450px; margin-left: 200px;"></img><strong style="margin-left:350px;">Pluto</strong></a></li>
+		<li class="lip"><a href="#"><img src="tatooine.png" style="max-width: 500px; margin-left: 300px;"></img><strong style="margin-left:430px;">Tatooine</strong></a></li>
+
+		<li class="lip"><a href="#"><img src="planet.png" style="max-width: 400px;"></img><strong>Aqua</strong></li>
+		<li class="lip"><a href="#"><img src="mercurio.png" style="max-width: 700px;"></img><strong style="margin-left:240px;">Mercurio</strong></a></li>
+		<li class="lip"><a href="#"><img src="ex1.jpg" style="max-width: 450px; margin-left: 200px;"></img><strong style="margin-left:290px;">Expansión</strong></a></li>
+		<li class="lip"><a href="#"><img src="Mazo.png" style="max-width: 500px; margin-left: 300px;"></img><strong style="margin-left:390px;">Cartas</strong></a></li>		
+
+		<li class="lip"><a href="#"><img src="sun.png" style="max-width: 500px;"></img><strong>Sol</strong></li>
+		<li class="lip"><a href="#"><img src="Teth.png" style="max-width: 400px; margin-left: 100px;"></img><strong style="margin-left:180px;">Teth</strong></a></li>
+		<li class="lip"><a href="#"><img src="ahch-to.png" style="max-width: 400px; margin-left: 200px;"></img><strong style="margin-left:280px;">Tech</strong></a></li>
+		<li class="lip"><a href="#"><img src="saturno.png" style="max-width: 600px; margin-left: 300px;"></img><strong style="margin-left:480px;">Saturno</strong></a></li>
+
+	</ul>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
 
 
-      <!-- Right Column -->
-      <div class="right-column">
 
-        <!-- Product Description -->
-        <div class="product-description">
-          <span>Paquetes de Expansión</span>
-          <h1>Planetas</h1>
-          <p>Expande los horizontes de tu juego con estos paquetes de expansión, puedes escoger desde planetas hasta el paquete completo del universo, tambien es posible adquirir un nuevo mazo de cartas, ¿qué esperas? las posibilidades son infinitas</p>
-        </div>
 
-        <!-- Product Configuration -->
-        <div class="product-configuration">
+</body>
 
-          <!-- Product Color -->
-          <div class="product-color">
-            <span >Planeta</span>
-
-            <div class="color-choose">
-              <div>
-                <input data-image="sun" type="radio" id="sun" name="color" value="sun" checked>
-                <label for="sun"><span></span></label>
-              </div>
-              <div>
-                <input data-image="ahch-to" type="radio" id="ahch-to" name="color" value="ahch-to">
-                <label for="ahch-to"><span></span></label>
-              </div>
-              <div>
-                <input data-image="arcoiris" type="radio" id="arcoiris" name="color" value="arcoiris">
-                <label for="arcoiris"><span></span></label>
-              </div>
-              <div>
-                <input data-image="jupiter" type="radio" id="jupiter" name="color" value="jupiter">
-                <label for="jupiter"><span></span></label>
-              </div>
-              <div>
-                <input data-image="mercurio" type="radio" id="mercurio" name="color" value="mercurio">
-                <label for="mercurio"><span></span></label>
-              </div>
-              <div>
-                <input data-image="planet" type="radio" id="planet" name="color" value="planet">
-                <label for="planet"><span></span></label>
-              </div>
-              <div>
-                <input data-image="pluto" type="radio" id="pluto" name="color" value="pluto">
-                <label for="pluto"><span></span></label>
-              </div>
-              <div>
-                <input data-image="saturno" type="radio" id="saturno" name="color" value="saturno">
-                <label for="saturno"><span></span></label>
-              </div>
-              <div>
-                <input data-image="tatooine" type="radio" id="tatooine" name="color" value="tatooine">
-                <label for="tatooine"><span></span></label>
-              </div>
-              <div>
-                <input data-image="Teth" type="radio" id="Teth" name="color" value="Teth">
-                <label for="Teth"><span></span></label>
-              </div>
-              <div>
-                <input data-image="mazo" type="radio" id="mazo" name="color" value="mazo">
-                <label for="mazo"><span></span></label>
-              </div>
-              <div>
-                <input data-image="ex1" type="radio" id="ex1" name="color" value="ex1">
-                <label for="ex1"><span></span></label>
-              </div>
-            </div>
-
-          </div>
-        <!-- Product Pricing -->
-        <div class="product-price">
-          <span>$20</span>
-          <a href="#" class="cart-btn">Añadir al carrito</a>
-        </div>
-      </div>
-    </main>
-
-    <!-- Scripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
-    <script src="script.js" charset="utf-8"></script>
-  </body>
 </html>
