@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xmlns:f="http://java.sun.com/jsf/core"
+    xmlns:h="http://java.sun.com/jsf/html">
+
+<head>
+    <meta content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        Perfil
+    </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <style type="text/css" xml:space="preserve">
+        @import 'carrito.css';
+    </style>
+    
+
+</head>
+
+
+<body>
+	<nav>
+		<ul class="ula">
+				<li><a href="#">Perfil</a></li>
+				<li><a href="#">Juegos</a></li>
+				<li><a href="#">Tienda</a></li>
+				<li><a href="#">Salir</a></li>
+				<img class="imga" src="logo.png" />
+		</ul>
+
+    </nav>
+
+    <h3>Tu Carrito de Compras</h3>
+    <div style="margin:60px;display: flex; justify-content: center">
+         <div class="row planetas" style="border-bottom-style: solid; border-color:white;border-width: 1px; width:1000px;">
+             <div class="col-md-3"><a href="#"><img class="planeta" src="images/arcoiris.png"></img></a></div>
+             <div class="col-md-3 descripcion" >Esta es una descripción de un planeta</div>
+             <div class="col-md-2 descripcion"> $20,000</div>
+             <div class="col-md-3">         
+                <button type="button" class="btn btn-default btn-sm">
+                    <span class="glyphicon glyphicon-trash" aria-hidden="true"></span> Eliminar
+                </button>
+            </div>
+         </div>   
+         <br/>
+        </div>
+        <h:form class="planetas">
+            <h:commandButton class="btnSubmit" value="Planetas"
+            action="#">Ver Listado Completo</h:commandButton>
+        </h:form>
+
+
+
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+</body>
+
+</html>
